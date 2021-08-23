@@ -3,7 +3,7 @@
 #download node and npm
 curl -o https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 . ~/.nvm/nvm.sh
-nvm instll node
+nvm install node
 
 #create out working directory if it dosen't exist
 DIR="/home/ec2-user/express-app"
