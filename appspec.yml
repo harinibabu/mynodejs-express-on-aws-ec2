@@ -4,7 +4,7 @@ files:
   - source: /
     destination : /home/ec2-user/express-app
 hooks:
-  ApplciaitonStop:
+  ApplicationStop:
     - location: scripts/application_stop.sh
       timeout: 300
       runsas: ec2-user
